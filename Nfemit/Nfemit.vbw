@@ -1,0 +1,5 @@
+Classe_Nfemit = 0, 0, 442, 346, C
+Tela_NFEmitidas = 22, 22, 464, 368, C, 22, 22, 464, 368, C
+Tela_Condicional = 66, 66, 542, 347, C, 110, 110, 564, 456, C
+Tela_Relatorio = 44, 44, 498, 390, C, 110, 110, 564, 456, C
+Tela_RelSimp = 132, 132, 586, 478, C, 66, 66, 520, 412, C

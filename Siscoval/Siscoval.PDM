@@ -1,0 +1,802 @@
+[Root]
+Most Recent Package=Instalação do Siscoval
+Most Recent Deploy=Folder Deployment 1
+
+[Package|Instalação do Siscoval|IconGroups]
+Group0=Siscoval
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Instalação do Siscoval|Siscoval]
+Icon1=Siscoval.exe
+Title1=Siscoval
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Dep File 1|IconGroups]
+Group0=Siscoval
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Dep File 1|Siscoval]
+Icon1=Siscoval.exe
+Title1=Siscoval
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 1|DepFile]
+DepCabFile=Siscoval.CAB
+DepCabRun=Siscoval.EXE
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Meus documentos\Programas\Siscoval\Instalação2
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=Yes
+Lotus=No
+Exchange=No
+Text=No
+Paradox=No
+Excel=No
+Xbase=No
+Jet 2.x=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+ASYCFILT.DLL=C:\Meus documentos\Programas\Siscoval\Instalação\Support\ASYCFILT.DLL
+
+[Package|Dep File 1|Files Released]
+User.DLL=
+Siscoval.CHI=
+
+[Package|Dep File 1|Missing Dependency Information]
+C:\Arquivos de programas\Siscoval\Assfig.dll=
+C:\Arquivos de programas\Siscoval\Assnf.dll=
+C:\Arquivos de programas\Siscoval\Cademp.dll=
+C:\Arquivos de programas\Siscoval\Cfgali.dll=
+C:\Arquivos de programas\Siscoval\Cfgbco.dll=
+C:\Arquivos de programas\Siscoval\Cfgcfi.dll=
+C:\Arquivos de programas\Siscoval\Cfgecf.dll=
+C:\Arquivos de programas\Siscoval\Cfgedc.dll=
+C:\Arquivos de programas\Siscoval\Cfgepp.dll=
+C:\Arquivos de programas\Siscoval\Cfgest.dll=
+C:\Arquivos de programas\Siscoval\Cfggru.dll=
+C:\Arquivos de programas\Siscoval\Cfginf.dll=
+C:\Arquivos de programas\Siscoval\Cfgusu.dll=
+C:\Arquivos de programas\Siscoval\Cotest.dll=
+C:\Arquivos de programas\Siscoval\Estcon.dll=
+C:\Arquivos de programas\Siscoval\Estcrp.dll=
+C:\Arquivos de programas\Siscoval\Esteps.dll=
+C:\Arquivos de programas\Siscoval\Estrps.dll=
+C:\Arquivos de programas\Siscoval\Pedest.dll=
+C:\Arquivos de programas\Siscoval\Scvbd.dll=
+C:\Arquivos de programas\Siscoval\Scvcarr.dll=
+C:\Arquivos de programas\Siscoval\Scvfunc.dll=
+C:\Arquivos de programas\Siscoval\Nfemit.dll=
+C:\Arquivos de programas\Siscoval\Convunit.dll=
+C:\Meus documentos\Programas\Siscoval\Sistema\Ordfab\Ordfab.dll=
+C:\Meus documentos\Programas\Siscoval\Sistema\Ordcom\Ordcom.dll=
+C:\Meus documentos\Programas\Siscoval\Sistema\Cqcorr\Cqcorr.dll=
+C:\Meus documentos\Programas\Siscoval\Sistema\Cqmtpr\Cqmtpr.dll=
+C:\Meus documentos\Programas\Siscoval\Sistema\Cqrela\Cqrela.dll=
+C:\Meus documentos\Programas\Siscoval\Sistema\Estbal\Estbal.dll=
+C:\Meus documentos\Programas\Siscoval\Sistema\Cfgmpe\Cfgmpe.dll=
+C:\Arquivos de programas\Siscoval\Cfgmpe.dll=
+C:\Arquivos de programas\Siscoval\Cqcorr.dll=
+C:\Arquivos de programas\Siscoval\Cqmtpr.dll=
+C:\Arquivos de programas\Siscoval\Cqrela.dll=
+C:\Arquivos de programas\Siscoval\Estbal.dll=
+C:\Arquivos de programas\Siscoval\Impform.dll=
+C:\Arquivos de programas\Siscoval\Ordcom.dll=
+C:\Arquivos de programas\Siscoval\Ordfab.dll=
+C:\Arquivos de programas\Siscoval\Ordmon.dll=
+C:\Arquivos de programas\Siscoval\Gerprod.dll=
+C:\Arquivos de programas\Siscoval\Germon.dll=
+C:\Arquivos de programas\Siscoval\Gerfab.dll=
+C:\Meus documentos\Programas\Siscoval\Sistema\Conpgrc\Conpgrc.dll=
+C:\Arquivos de programas\Siscoval\Gerlay.dll=
+C:\Arquivos de programas\Siscoval\Gercnc.dll=
+C:\Arquivos de programas\Siscoval\Cfgimg.dll=
+C:\Arquivos de programas\Siscoval\Cfgfapro.dll=
+C:\Arquivos de programas\Siscoval\Cfgfamaq.dll=
+C:\Arquivos de programas\Siscoval\Asspro.dll=
+C:\Arquivos de programas\Siscoval\Assdes.dll=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\COMCT332.OCX=
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=
+C:\WINDOWS\SYSTEM\comdlg32.ocx=
+C:\WINDOWS\SYSTEM\Msflxgrd.ocx=
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=
+
+[Package|Dep File 1|Files Added]
+c:\windows\system\comct232.ocx=
+c:\windows\system\msflxgrd.ocx=
+c:\windows\system\sysinfo.ocx=
+c:\windows\system\msmask32.ocx=
+c:\windows\system\richtx32.ocx=
+c:\windows\system\tabctl32.ocx=
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+C:\Arquivos de programas\Siscoval\Siscoval.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJET35.DLL=Yes
+C:\WINDOWS\SYSTEM\msjter35.dll=Yes
+C:\WINDOWS\SYSTEM\msjint35.dll=Yes
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=Yes
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\msrd2x35.dll=Yes
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM\MSRDO20.DLL=Yes
+C:\WINDOWS\SYSTEM\RDOCURS.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\Arquivos de programas\Siscoval\Scvfunc.dll=Yes
+C:\Arquivos de programas\Siscoval\Scvcarr.dll=Yes
+C:\Arquivos de programas\Siscoval\Scvbd.dll=Yes
+C:\Arquivos de programas\Siscoval\Pedest.dll=Yes
+C:\Arquivos de programas\Siscoval\Estrps.dll=Yes
+C:\Arquivos de programas\Siscoval\Esteps.dll=Yes
+C:\Arquivos de programas\Siscoval\Estcrp.dll=Yes
+C:\Arquivos de programas\Siscoval\Estcon.dll=Yes
+C:\Arquivos de programas\Siscoval\Cotest.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfgusu.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfginf.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfggru.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfgest.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfgepp.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfgedc.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfgecf.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfgcfi.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfgbco.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfgali.dll=Yes
+C:\Arquivos de programas\Siscoval\Cademp.dll=Yes
+C:\Arquivos de programas\Siscoval\Assnf.dll=Yes
+C:\Arquivos de programas\Siscoval\Assfig.dll=Yes
+C:\WINDOWS\SYSTEM\COMCT232.OCX=Yes
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=Yes
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=Yes
+C:\Arquivos de programas\Siscoval\Nfemit.dll=Yes
+C:\Arquivos de programas\Siscoval\Convunit.dll=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\Arquivos de programas\Arquivos comuns\Microsoft Shared\Dao\DAO350.DLL=Yes
+C:\Arquivos de programas\Siscoval\Ordfab.dll=Yes
+C:\Arquivos de programas\Siscoval\Ordcom.dll=Yes
+C:\Arquivos de programas\Siscoval\Impform.dll=Yes
+C:\Arquivos de programas\Siscoval\Estbal.dll=Yes
+C:\Arquivos de programas\Siscoval\Cqrela.dll=Yes
+C:\Arquivos de programas\Siscoval\Cqmtpr.dll=Yes
+C:\Arquivos de programas\Siscoval\Cqcorr.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfgmpe.dll=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\Meus documentos\Programas\Siscoval\Sistema\Conpgrc\Conpgrc.dll=Yes
+C:\Arquivos de programas\Siscoval\Gerfab.dll=Yes
+C:\Arquivos de programas\Siscoval\Germon.dll=Yes
+C:\Arquivos de programas\Siscoval\Gerprod.dll=Yes
+C:\Arquivos de programas\Siscoval\Ordmon.dll=Yes
+C:\Arquivos de programas\Siscoval\Assdes.dll=Yes
+C:\Arquivos de programas\Siscoval\Asspro.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfgfamaq.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfgfapro.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfgimg.dll=Yes
+C:\Arquivos de programas\Siscoval\Gercnc.dll=Yes
+C:\Arquivos de programas\Siscoval\Gerlay.dll=Yes
+C:\Arquivos de programas\Siscoval\Siscoval.chm=Yes
+C:\WINDOWS\SYSTEM\HHCTRL.OCX=Yes
+C:\WINDOWS\SYSTEM\ITSS.DLL=Yes
+C:\WINDOWS\SYSTEM\ITIRCL.DLL=Yes
+C:\WINDOWS\SYSTEM\HH.EXE=Yes
+C:\WINDOWS\SYSTEM\odbc32.dll=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 1|Install Locations]
+C:\Arquivos de programas\Siscoval\Siscoval.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Arquivos comuns\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjint35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCT332.OCX=$(WinSysPath)
+C:\Arquivos de programas\Siscoval\Scvfunc.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Scvcarr.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Scvbd.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Pedest.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Estrps.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Esteps.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Estcrp.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Estcon.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cotest.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfgusu.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfginf.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfggru.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfgest.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfgepp.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfgedc.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfgecf.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfgcfi.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfgbco.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfgali.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cademp.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Assnf.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Assfig.dll=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\COMCT232.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DAO350.DLL=$(MSDAOPath)
+C:\Arquivos de programas\Siscoval\Nfemit.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Convunit.dll=$(AppPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\Meus documentos\Programas\Siscoval\Sistema\Cfgmpe\Cfgmpe.dll=$(AppPath)
+C:\Meus documentos\Programas\Siscoval\Sistema\Estbal\Estbal.dll=$(AppPath)
+C:\Meus documentos\Programas\Siscoval\Sistema\Cqrela\Cqrela.dll=$(AppPath)
+C:\Meus documentos\Programas\Siscoval\Sistema\Cqmtpr\Cqmtpr.dll=$(AppPath)
+C:\Meus documentos\Programas\Siscoval\Sistema\Cqcorr\Cqcorr.dll=$(AppPath)
+C:\Meus documentos\Programas\Siscoval\Sistema\Ordcom\Ordcom.dll=$(AppPath)
+C:\Meus documentos\Programas\Siscoval\Sistema\Ordfab\Ordfab.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Ordfab.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Ordcom.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Impform.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Estbal.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cqrela.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cqmtpr.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cqcorr.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfgmpe.dll=$(AppPath)
+C:\Meus documentos\Programas\Siscoval\Instalação\Support\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Meus documentos\Programas\Siscoval\Sistema\Conpgrc\Conpgrc.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Gerfab.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Germon.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Gerprod.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Ordmon.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Assdes.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Asspro.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfgfamaq.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfgfapro.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfgimg.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Gercnc.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Gerlay.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Siscoval.chm=$(AppPath)
+C:\WINDOWS\SYSTEM\HHCTRL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ITSS.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ITIRCL.DLL=$(WinSysPath)
+C:\WINDOWS\HH.EXE=$(WinSysPath)
+C:\WINDOWS\SYSTEM\HH.EXE=$(WinSysPath)
+C:\WINDOWS\SYSTEM\odbc32.dll=$(WinSysPathSysFile)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=Yes
+C:\Arquivos de programas\Siscoval\Siscoval.exe=No
+C:\Arquivos de programas\Siscoval\Scvfunc.dll=No
+C:\Arquivos de programas\Siscoval\Scvcarr.dll=No
+C:\Arquivos de programas\Siscoval\Scvbd.dll=No
+C:\Arquivos de programas\Siscoval\Pedest.dll=No
+C:\Arquivos de programas\Siscoval\Estrps.dll=No
+C:\Arquivos de programas\Siscoval\Esteps.dll=No
+C:\Arquivos de programas\Siscoval\Estcrp.dll=No
+C:\Arquivos de programas\Siscoval\Estcon.dll=No
+C:\Arquivos de programas\Siscoval\Cotest.dll=No
+C:\Arquivos de programas\Siscoval\Cfgusu.dll=No
+C:\Arquivos de programas\Siscoval\Cfginf.dll=No
+C:\Arquivos de programas\Siscoval\Cfggru.dll=No
+C:\Arquivos de programas\Siscoval\Cfgest.dll=No
+C:\Arquivos de programas\Siscoval\Cfgepp.dll=No
+C:\Arquivos de programas\Siscoval\Cfgedc.dll=No
+C:\Arquivos de programas\Siscoval\Cfgecf.dll=No
+C:\Arquivos de programas\Siscoval\Cfgcfi.dll=No
+C:\Arquivos de programas\Siscoval\Cfgbco.dll=No
+C:\Arquivos de programas\Siscoval\Cfgali.dll=No
+C:\Arquivos de programas\Siscoval\Cademp.dll=No
+C:\Arquivos de programas\Siscoval\Assnf.dll=No
+C:\Arquivos de programas\Siscoval\Assfig.dll=No
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Arquivos de programas\Siscoval\Nfemit.dll=No
+C:\Arquivos de programas\Siscoval\Convunit.dll=No
+C:\Meus documentos\Programas\Siscoval\Sistema\Cfgmpe\Cfgmpe.dll=No
+C:\Meus documentos\Programas\Siscoval\Sistema\Estbal\Estbal.dll=No
+C:\Meus documentos\Programas\Siscoval\Sistema\Cqrela\Cqrela.dll=No
+C:\Meus documentos\Programas\Siscoval\Sistema\Cqmtpr\Cqmtpr.dll=No
+C:\Meus documentos\Programas\Siscoval\Sistema\Cqcorr\Cqcorr.dll=No
+C:\Meus documentos\Programas\Siscoval\Sistema\Ordcom\Ordcom.dll=No
+C:\Meus documentos\Programas\Siscoval\Sistema\Ordfab\Ordfab.dll=No
+C:\Arquivos de programas\Siscoval\Cfgmpe.dll=No
+C:\Arquivos de programas\Siscoval\Cqcorr.dll=No
+C:\Arquivos de programas\Siscoval\Ordfab.dll=No
+C:\Arquivos de programas\Siscoval\Ordcom.dll=No
+C:\Arquivos de programas\Siscoval\Impform.dll=No
+C:\Arquivos de programas\Siscoval\Estbal.dll=No
+C:\Arquivos de programas\Siscoval\Cqrela.dll=No
+C:\Arquivos de programas\Siscoval\Cqmtpr.dll=No
+C:\Meus documentos\Programas\Siscoval\Sistema\Conpgrc\Conpgrc.dll=No
+C:\Arquivos de programas\Siscoval\Gerfab.dll=No
+C:\Arquivos de programas\Siscoval\Germon.dll=No
+C:\Arquivos de programas\Siscoval\Gerprod.dll=No
+C:\Arquivos de programas\Siscoval\Ordmon.dll=No
+C:\Arquivos de programas\Siscoval\Assdes.dll=No
+C:\Arquivos de programas\Siscoval\Asspro.dll=No
+C:\Arquivos de programas\Siscoval\Cfgfamaq.dll=No
+C:\Arquivos de programas\Siscoval\Cfgfapro.dll=No
+C:\Arquivos de programas\Siscoval\Cfgimg.dll=No
+C:\Arquivos de programas\Siscoval\Gercnc.dll=No
+C:\Arquivos de programas\Siscoval\Gerlay.dll=No
+C:\Arquivos de programas\Siscoval\Siscoval.chm=No
+
+[Package|Dep File 1|Distribution]
+Type=single
+Size=
+Title=Siscoval
+
+[Package|Dep File 1|Package]
+PackageFolder=C:\Meus documentos\Programas\Siscoval\Instalação2
+ProjectFolder=C:\Meus documentos\Programas\Siscoval\Sistema\Siscoval
+ServerSideCab=
+File1=C:\Meus documentos\Programas\Siscoval\Instalação2\Siscoval.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|Folder Deployment 1|Root]
+Package=Instalação do Siscoval
+Handler=PDWizard.FolderDplySubWiz
+Folder=C:\Meus documentos\Programas\Siscoval\Instalação2
+
+
+[Package|Instalação do Siscoval|DepFile]
+DepCabFile=Siscoval.CAB
+DepCabRun=Siscoval.EXE
+
+[Package|Instalação do Siscoval|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Conesteel\Meus documentos\Códigos\Siscoval\Instalacao
+
+[Package|Instalação do Siscoval|Configure DAO ISAMs]
+Applicable=No
+Lotus=No
+Exchange=No
+Text=No
+Paradox=No
+Excel=No
+Xbase=No
+Jet 2.x=No
+
+[Package|Instalação do Siscoval|Configure DAO ODBC]
+JetWorkspace=No
+ODBCDirect=No
+
+[Package|Instalação do Siscoval|Files Found]
+ASYCFILT.DLL=C:\Meus documentos\Programas\Siscoval\Instalação\Support\ASYCFILT.DLL
+COMCT232.OCX=C:\WINDOWS\system32\COMCT232.OCX
+Ordcom.dll=C:\Arquivos de programas\Siscoval\Ordcom.dll
+Valvulas.ocx=C:\Arquivos de programas\Siscoval\Valvulas.ocx
+
+[Package|Instalação do Siscoval|Files Released]
+User.DLL=
+Siscoval.CHI=
+
+[Package|Instalação do Siscoval|Missing Dependency Information]
+C:\Arquivos de programas\Siscoval\Assfig.dll=
+C:\Arquivos de programas\Siscoval\Assnf.dll=
+C:\Arquivos de programas\Siscoval\Cademp.dll=
+C:\Arquivos de programas\Siscoval\Cfgali.dll=
+C:\Arquivos de programas\Siscoval\Cfgbco.dll=
+C:\Arquivos de programas\Siscoval\Cfgcfi.dll=
+C:\Arquivos de programas\Siscoval\Cfgecf.dll=
+C:\Arquivos de programas\Siscoval\Cfgedc.dll=
+C:\Arquivos de programas\Siscoval\Cfgepp.dll=
+C:\Arquivos de programas\Siscoval\Cfgest.dll=
+C:\Arquivos de programas\Siscoval\Cfggru.dll=
+C:\Arquivos de programas\Siscoval\Cfginf.dll=
+C:\Arquivos de programas\Siscoval\Cfgusu.dll=
+C:\Arquivos de programas\Siscoval\Cotest.dll=
+C:\Arquivos de programas\Siscoval\Estcon.dll=
+C:\Arquivos de programas\Siscoval\Estcrp.dll=
+C:\Arquivos de programas\Siscoval\Esteps.dll=
+C:\Arquivos de programas\Siscoval\Estrps.dll=
+C:\Arquivos de programas\Siscoval\Pedest.dll=
+C:\Arquivos de programas\Siscoval\Scvbd.dll=
+C:\Arquivos de programas\Siscoval\Scvcarr.dll=
+C:\Arquivos de programas\Siscoval\Scvfunc.dll=
+C:\Arquivos de programas\Siscoval\Nfemit.dll=
+C:\Arquivos de programas\Siscoval\Convunit.dll=
+C:\Meus documentos\Programas\Siscoval\Sistema\Ordfab\Ordfab.dll=
+C:\Meus documentos\Programas\Siscoval\Sistema\Ordcom\Ordcom.dll=
+C:\Meus documentos\Programas\Siscoval\Sistema\Cqcorr\Cqcorr.dll=
+C:\Meus documentos\Programas\Siscoval\Sistema\Cqmtpr\Cqmtpr.dll=
+C:\Meus documentos\Programas\Siscoval\Sistema\Cqrela\Cqrela.dll=
+C:\Meus documentos\Programas\Siscoval\Sistema\Estbal\Estbal.dll=
+C:\Meus documentos\Programas\Siscoval\Sistema\Cfgmpe\Cfgmpe.dll=
+C:\Arquivos de programas\Siscoval\Cfgmpe.dll=
+C:\Arquivos de programas\Siscoval\Cqcorr.dll=
+C:\Arquivos de programas\Siscoval\Cqmtpr.dll=
+C:\Arquivos de programas\Siscoval\Cqrela.dll=
+C:\Arquivos de programas\Siscoval\Estbal.dll=
+C:\Arquivos de programas\Siscoval\Impform.dll=
+C:\Arquivos de programas\Siscoval\Ordcom.dll=
+C:\Arquivos de programas\Siscoval\Ordfab.dll=
+C:\Arquivos de programas\Siscoval\Ordmon.dll=
+C:\Arquivos de programas\Siscoval\Gerprod.dll=
+C:\Arquivos de programas\Siscoval\Germon.dll=
+C:\Arquivos de programas\Siscoval\Gerfab.dll=
+C:\Meus documentos\Programas\Siscoval\Sistema\Conpgrc\Conpgrc.dll=
+C:\Arquivos de programas\Siscoval\Gerlay.dll=
+C:\Arquivos de programas\Siscoval\Gercnc.dll=
+C:\Arquivos de programas\Siscoval\Cfgimg.dll=
+C:\Arquivos de programas\Siscoval\Cfgfapro.dll=
+C:\Arquivos de programas\Siscoval\Cfgfamaq.dll=
+C:\Arquivos de programas\Siscoval\Asspro.dll=
+C:\Arquivos de programas\Siscoval\Assdes.dll=
+C:\Arquivos de programas\Siscoval\Conpgrc.dll=
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\VBDATAVW.TLB=
+C:\Arquivos de programas\Microsoft Visual Studio\Common\Tools\Winapi\APILOAD.EXE=
+C:\Arquivos de programas\Siscoval\Pedcom.dll=
+C:\Arquivos de programas\Arquivos comuns\System\ado\msado25.tlb=
+C:\Arquivos de programas\Siscoval\Valvulas.ocx=
+C:\WINDOWS\system32\MSEXCH35.DLL=
+C:\Arquivos de programas\Arquivos comuns\Microsoft Shared\DAO\dao360.dll=
+C:\WINDOWS\system32\Valvulas.ocx=
+C:\WINDOWS\system32\Pedcom.dll=
+
+[Package|Instalação do Siscoval|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\COMCT332.OCX=
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=
+C:\WINDOWS\SYSTEM\comdlg32.ocx=
+C:\WINDOWS\SYSTEM\Msflxgrd.ocx=
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=
+C:\WINDOWS\system32\Msflxgrd.ocx=
+C:\WINDOWS\system32\msmask32.ocx=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\MSRDO20.DLL=
+C:\WINDOWS\system32\TABCTL32.OCX=
+
+[Package|Instalação do Siscoval|Files Added]
+c:\windows\system32\comct232.ocx=
+msflxgrd.ocx=
+sysinfo.ocx=
+c:\windows\system\msmask32.ocx=
+c:\windows\system\richtx32.ocx=
+c:\windows\system\tabctl32.ocx=
+C:\Arquivos de programas\Arquivos comuns\Microsoft Shared\DAO\dao360.dll=
+
+[Package|Instalação do Siscoval|Files Removed]
+c:\windows\system\richtx32.ocx=
+c:\arquivos de programas\microsoft visual studio\vb98\wizards\pdwizard\redist\riched32.dll=
+c:\arquivos de programas\microsoft visual studio\common\tools\winapi\apiload.exe=
+c:\windows\system32\expsrv.dll=
+c:\windows\system32\hh.exe=
+c:\arquivos de programas\arquivos comuns\system\ado\msado25.tlb=
+c:\arquivos de programas\microsoft visual studio\vb98\vbdatavw.tlb=
+
+[Package|Instalação do Siscoval|Files In Project]
+C:\Arquivos de programas\Siscoval\Siscoval.exe=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Arquivos de programas\Siscoval\Scvfunc.dll=Yes
+C:\Arquivos de programas\Siscoval\Scvcarr.dll=Yes
+C:\Arquivos de programas\Siscoval\Scvbd.dll=Yes
+C:\Arquivos de programas\Siscoval\Pedest.dll=Yes
+C:\Arquivos de programas\Siscoval\Estrps.dll=Yes
+C:\Arquivos de programas\Siscoval\Esteps.dll=Yes
+C:\Arquivos de programas\Siscoval\Estcrp.dll=Yes
+C:\Arquivos de programas\Siscoval\Estcon.dll=Yes
+C:\Arquivos de programas\Siscoval\Cotest.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfgusu.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfginf.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfggru.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfgest.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfgepp.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfgedc.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfgecf.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfgcfi.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfgbco.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfgali.dll=Yes
+C:\Arquivos de programas\Siscoval\Cademp.dll=Yes
+C:\Arquivos de programas\Siscoval\Assnf.dll=Yes
+C:\Arquivos de programas\Siscoval\Assfig.dll=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Arquivos de programas\Siscoval\Nfemit.dll=Yes
+C:\Arquivos de programas\Siscoval\Convunit.dll=Yes
+C:\Arquivos de programas\Siscoval\Ordfab.dll=Yes
+C:\Arquivos de programas\Siscoval\Impform.dll=Yes
+C:\Arquivos de programas\Siscoval\Estbal.dll=Yes
+C:\Arquivos de programas\Siscoval\Cqrela.dll=Yes
+C:\Arquivos de programas\Siscoval\Cqmtpr.dll=Yes
+C:\Arquivos de programas\Siscoval\Cqcorr.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfgmpe.dll=Yes
+C:\Arquivos de programas\Siscoval\Gerfab.dll=Yes
+C:\Arquivos de programas\Siscoval\Germon.dll=Yes
+C:\Arquivos de programas\Siscoval\Gerprod.dll=Yes
+C:\Arquivos de programas\Siscoval\Ordmon.dll=Yes
+C:\Arquivos de programas\Siscoval\Assdes.dll=Yes
+C:\Arquivos de programas\Siscoval\Asspro.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfgfamaq.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfgfapro.dll=Yes
+C:\Arquivos de programas\Siscoval\Cfgimg.dll=Yes
+C:\Arquivos de programas\Siscoval\Gercnc.dll=Yes
+C:\Arquivos de programas\Siscoval\Gerlay.dll=Yes
+C:\Arquivos de programas\Siscoval\Siscoval.chm=Yes
+C:\Arquivos de programas\Siscoval\Conpgrc.dll=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\msmask32.ocx=Yes
+C:\WINDOWS\system32\hhctrl.ocx=Yes
+C:\WINDOWS\system32\itss.dll=Yes
+C:\WINDOWS\system32\itircl.dll=Yes
+C:\WINDOWS\system32\HH.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\WINDOWS\system32\COMCT232.OCX=Yes
+C:\WINDOWS\system32\Msflxgrd.ocx=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\WINDOWS\system32\Pedcom.dll=Yes
+C:\WINDOWS\system32\Valvulas.ocx=Yes
+
+[Package|Instalação do Siscoval|Configure Registry Files]
+Applicable=No
+
+[Package|Instalação do Siscoval|Configure Remote Servers]
+Applicable=No
+
+[Package|Instalação do Siscoval|Install Locations]
+C:\Arquivos de programas\Siscoval\Siscoval.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Arquivos comuns\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjint35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCT332.OCX=$(WinSysPath)
+C:\Arquivos de programas\Siscoval\Scvfunc.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Scvcarr.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Scvbd.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Pedest.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Estrps.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Esteps.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Estcrp.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Estcon.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cotest.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfgusu.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfginf.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfggru.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfgest.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfgepp.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfgedc.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfgecf.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfgcfi.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfgbco.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfgali.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cademp.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Assnf.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Assfig.dll=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\COMCT232.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DAO350.DLL=$(MSDAOPath)
+C:\Arquivos de programas\Siscoval\Nfemit.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Convunit.dll=$(AppPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\Meus documentos\Programas\Siscoval\Sistema\Cfgmpe\Cfgmpe.dll=$(AppPath)
+C:\Meus documentos\Programas\Siscoval\Sistema\Estbal\Estbal.dll=$(AppPath)
+C:\Meus documentos\Programas\Siscoval\Sistema\Cqrela\Cqrela.dll=$(AppPath)
+C:\Meus documentos\Programas\Siscoval\Sistema\Cqmtpr\Cqmtpr.dll=$(AppPath)
+C:\Meus documentos\Programas\Siscoval\Sistema\Cqcorr\Cqcorr.dll=$(AppPath)
+C:\Meus documentos\Programas\Siscoval\Sistema\Ordcom\Ordcom.dll=$(AppPath)
+C:\Meus documentos\Programas\Siscoval\Sistema\Ordfab\Ordfab.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Ordfab.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Ordcom.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Impform.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Estbal.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cqrela.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cqmtpr.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cqcorr.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfgmpe.dll=$(AppPath)
+C:\Meus documentos\Programas\Siscoval\Instalação\Support\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Meus documentos\Programas\Siscoval\Sistema\Conpgrc\Conpgrc.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Gerfab.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Germon.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Gerprod.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Ordmon.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Assdes.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Asspro.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfgfamaq.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfgfapro.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Cfgimg.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Gercnc.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Gerlay.dll=$(AppPath)
+C:\Arquivos de programas\Siscoval\Siscoval.chm=$(AppPath)
+C:\WINDOWS\SYSTEM\HHCTRL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ITSS.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ITIRCL.DLL=$(WinSysPath)
+C:\WINDOWS\HH.EXE=$(WinSysPath)
+C:\WINDOWS\SYSTEM\HH.EXE=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Arquivos de programas\Siscoval\Conpgrc.dll=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\Common\Tools\Winapi\APILOAD.EXE=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\VBDATAVW.TLB=$(WinSysPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\Arquivos de programas\Arquivos comuns\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msmask32.ocx=$(WinSysPath)
+C:\Arquivos de programas\Siscoval\Pedcom.dll=$(WinSysPath)
+C:\WINDOWS\system32\hhctrl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\itss.dll=$(WinSysPath)
+C:\WINDOWS\system32\itircl.dll=$(WinSysPath)
+C:\WINDOWS\system32\HH.EXE=$(WinSysPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\COMCT232.OCX=$(WinSysPath)
+C:\WINDOWS\system32\Msflxgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\SYSINFO.OCX=$(WinSysPath)
+C:\Arquivos de programas\Siscoval\Valvulas.ocx=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msexcl35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSEXCH35.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msltus35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mspdox35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mstext35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSXBSE35.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Arquivos comuns\Microsoft Shared\DAO\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\Pedcom.dll=$(AppPath)
+C:\WINDOWS\system32\Valvulas.ocx=$(AppPath)
+
+[Package|Instalação do Siscoval|Configure Shared Files]
+Applicable=Yes
+C:\Arquivos de programas\Siscoval\Siscoval.exe=No
+C:\Arquivos de programas\Siscoval\Scvfunc.dll=No
+C:\Arquivos de programas\Siscoval\Scvcarr.dll=No
+C:\Arquivos de programas\Siscoval\Scvbd.dll=No
+C:\Arquivos de programas\Siscoval\Pedest.dll=No
+C:\Arquivos de programas\Siscoval\Estrps.dll=No
+C:\Arquivos de programas\Siscoval\Esteps.dll=No
+C:\Arquivos de programas\Siscoval\Estcrp.dll=No
+C:\Arquivos de programas\Siscoval\Estcon.dll=No
+C:\Arquivos de programas\Siscoval\Cotest.dll=No
+C:\Arquivos de programas\Siscoval\Cfgusu.dll=No
+C:\Arquivos de programas\Siscoval\Cfginf.dll=No
+C:\Arquivos de programas\Siscoval\Cfggru.dll=No
+C:\Arquivos de programas\Siscoval\Cfgest.dll=No
+C:\Arquivos de programas\Siscoval\Cfgepp.dll=No
+C:\Arquivos de programas\Siscoval\Cfgedc.dll=No
+C:\Arquivos de programas\Siscoval\Cfgecf.dll=No
+C:\Arquivos de programas\Siscoval\Cfgcfi.dll=No
+C:\Arquivos de programas\Siscoval\Cfgbco.dll=No
+C:\Arquivos de programas\Siscoval\Cfgali.dll=No
+C:\Arquivos de programas\Siscoval\Cademp.dll=No
+C:\Arquivos de programas\Siscoval\Assnf.dll=No
+C:\Arquivos de programas\Siscoval\Assfig.dll=No
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Arquivos de programas\Siscoval\Nfemit.dll=No
+C:\Arquivos de programas\Siscoval\Convunit.dll=No
+C:\Meus documentos\Programas\Siscoval\Sistema\Cfgmpe\Cfgmpe.dll=No
+C:\Meus documentos\Programas\Siscoval\Sistema\Estbal\Estbal.dll=No
+C:\Meus documentos\Programas\Siscoval\Sistema\Cqrela\Cqrela.dll=No
+C:\Meus documentos\Programas\Siscoval\Sistema\Cqmtpr\Cqmtpr.dll=No
+C:\Meus documentos\Programas\Siscoval\Sistema\Cqcorr\Cqcorr.dll=No
+C:\Meus documentos\Programas\Siscoval\Sistema\Ordcom\Ordcom.dll=No
+C:\Meus documentos\Programas\Siscoval\Sistema\Ordfab\Ordfab.dll=No
+C:\Arquivos de programas\Siscoval\Cfgmpe.dll=No
+C:\Arquivos de programas\Siscoval\Cqcorr.dll=No
+C:\Arquivos de programas\Siscoval\Ordfab.dll=No
+C:\Arquivos de programas\Siscoval\Ordcom.dll=No
+C:\Arquivos de programas\Siscoval\Impform.dll=No
+C:\Arquivos de programas\Siscoval\Estbal.dll=No
+C:\Arquivos de programas\Siscoval\Cqrela.dll=No
+C:\Arquivos de programas\Siscoval\Cqmtpr.dll=No
+C:\Meus documentos\Programas\Siscoval\Sistema\Conpgrc\Conpgrc.dll=No
+C:\Arquivos de programas\Siscoval\Gerfab.dll=No
+C:\Arquivos de programas\Siscoval\Germon.dll=No
+C:\Arquivos de programas\Siscoval\Gerprod.dll=No
+C:\Arquivos de programas\Siscoval\Ordmon.dll=No
+C:\Arquivos de programas\Siscoval\Assdes.dll=No
+C:\Arquivos de programas\Siscoval\Asspro.dll=No
+C:\Arquivos de programas\Siscoval\Cfgfamaq.dll=No
+C:\Arquivos de programas\Siscoval\Cfgfapro.dll=No
+C:\Arquivos de programas\Siscoval\Cfgimg.dll=No
+C:\Arquivos de programas\Siscoval\Gercnc.dll=No
+C:\Arquivos de programas\Siscoval\Gerlay.dll=No
+C:\Arquivos de programas\Siscoval\Siscoval.chm=No
+C:\Arquivos de programas\Siscoval\Conpgrc.dll=No
+C:\WINDOWS\system32\Pedcom.dll=No
+C:\WINDOWS\system32\Valvulas.ocx=No
+
+[Package|Instalação do Siscoval|Distribution]
+Type=single
+Size=
+Title=Siscoval
+
+[Package|Instalação do Siscoval|Package]
+PackageFolder=C:\Documents and Settings\Conesteel\Meus documentos\Códigos\Siscoval\Instalacao
+ProjectFolder=C:\Documents and Settings\Conesteel\Meus documentos\Códigos\Siscoval\Sistema\Siscoval
+ServerSideCab=
+File1=C:\Documents and Settings\Conesteel\Meus documentos\Códigos\Siscoval\Instalacao\setup.exe
+File2=C:\Documents and Settings\Conesteel\Meus documentos\Códigos\Siscoval\Instalacao\Setup.Lst
+File3=C:\Documents and Settings\Conesteel\Meus documentos\Códigos\Siscoval\Instalacao\Siscoval.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
