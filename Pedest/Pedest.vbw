@@ -1,0 +1,4 @@
+Classe_Pedest = 66, 66, 435, 409, C
+Tela_Pedido = 110, 104, 536, 456, C, 66, 66, 492, 412, C
+Modulo_Pedido = 110, 110, 536, 456, Z
+Tela_Pedido_MP = 110, 110, 536, 456, C, 66, 66, 492, 412, C

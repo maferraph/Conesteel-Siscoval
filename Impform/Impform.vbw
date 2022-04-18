@@ -1,0 +1,11 @@
+Classe_Impform = 2, 0, 428, 346, C
+IT_OrdemFabricacao = 22, 22, 448, 368, C, 154, 154, 580, 500, C
+IT_OrdemMontagem = 22, 22, 451, 368, C, 0, 0, 417, 346, C
+IT_PedidoEstoque = 154, 154, 603, 500, C, 110, 110, 559, 456, C
+IT_OrdemExpedicao = 66, 66, 515, 412, C, 44, 44, 493, 390, C
+IT_Romaneio = 110, 110, 559, 456, C, 0, 0, 449, 346, C
+IT_ConfigMP = 0, 0, 428, 346, C, 76, 83, 708, 580, C
+IT_CotacaoEstoque = 0, 0, 428, 346, C, 110, 110, 538, 456, C
+IT_NotaFiscal = 0, 0, 0, 0, C, 110, 110, 561, 456, C
+IT_Contas_Relatorio = 22, 22, 411, 368, C, 0, 0, 354, 346, C
+IT_Equipamentos = 66, 66, 508, 412, C, 44, 44, 486, 390, C

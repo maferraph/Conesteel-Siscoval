@@ -1,0 +1,54 @@
+Private Sub BT_Imprimir_Click()
+    RespMsg = MsgBox("Você deseja imprimir um relatório com os dados sobre matéria-prima deste ítem ?", vbQuestion + vbYesNo + vbDefaultButton1, "Imprimir relatório")
+    If RespMsg = vbYes Then
+        With Tela_Cotacao_MP_IT
+            .ScaleMode = vbTwips
+            .ScaleHeight = 15819
+            'apaga campos
+            For I = 0 To 43
+                .LB_Ite(I).Visible = False
+                .LB_Pec(I).Caption = ""
+                .LB_Des(I).Caption = ""
+                .LB_Bit(I).Caption = ""
+                .LB_Mat(I).Caption = ""
+                .LB_Qun(I).Caption = ""
+                .LB_Qne(I).Caption = ""
+                .LB_Eco(I).Caption = ""
+                .LB_Epr(I).Caption = ""
+                .LB_Ema(I).Caption = ""
+            Next I
+            'monta relatorio
+            .LB_Data.Caption = Format(Date, "dd/mm/yyyy")
+            .LB_Quan.Caption = Format(LB_Quantidade.Caption, "###,##0.00")
+            .LB_Figu.Caption = LB_Figura.Caption
+            .LB_Bito.Caption = LB_Bitola.Caption
+            .LB_Mate.Caption = LB_Material.Caption
+            .LB_Desc.Caption = sDescricao
+            For I = 1 To FG_MP.Rows - 1
+                .LB_Ite(I - 1).Visible = True
+                .LB_Pec(I - 1).Caption = FG_MP.TextMatrix(I, 0)
+                .LB_Des(I - 1).Caption = FG_MP.TextMatrix(I, 1)
+                .LB_Bit(I - 1).Caption = FG_MP.TextMatrix(I, 2)
+                .LB_Mat(I - 1).Caption = FG_MP.TextMatrix(I, 3)
+                .LB_Qun(I - 1).Caption = FG_MP.TextMatrix(I, 4)
+                .LB_Qne(I - 1).Caption = FG_MP.TextMatrix(I, 5)
+                .LB_Eco(I - 1).Caption = FG_MP.TextMatrix(I, 6)
+                .LB_Epr(I - 1).Caption = FG_MP.TextMatrix(I, 7)
+                .LB_Ema(I - 1).Caption = FG_MP.TextMatrix(I, 8)
+            Next I
+            'Seleciona impressora
+            'Printer.PaperSize = vbPRPSLetter
+            For I = 0 To Printers.Count - 1
+                If Printers(I).DeviceName = Tela_Cotacao.DLL_FUNCS.NomeImpressora(.Name) Then
+                    Set Printer = Printers(I)
+                    Exit For
+                End If
+            Next I
+            'Tela_Cotacao.DLL_FUNCS.SelecionaImpressora Tela_Cotacao.DLL_FUNCS.NomeImpressora(.Name)
+            'Imprimi o formulário
+            .PrintForm
+            Printer.EndDoc
+            Tela_Cotacao.DLL_FUNCS.SelecionaImpressora Tela_Cotacao.DLL_FUNCS.NomeImpressora("PADRÃO")
+        End With
+    End If
+End Sub
