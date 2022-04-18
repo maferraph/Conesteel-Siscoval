@@ -1,0 +1,9 @@
+Classe_Assnf = 0, 0, 369, 343, C
+Tela_NotaFiscal = 144, 97, 455, 440, C, 44, 44, 355, 387, C
+Tela_NotaFiscal_Dlg_1 = 132, 132, 546, 475, C, 110, 110, 524, 453, C
+Tela_NotaFiscal_Dlg_2 = 22, 22, 436, 365, C, 22, 22, 436, 365, C
+Tela_NotaFiscal_Dlg_3 = 66, 66, 502, 344, C, 110, 110, 523, 453, C
+Tela_NotaFiscal_Dlg_4 = 44, 44, 458, 387, C, 66, 66, 480, 409, C
+Tela_NotaFiscal_Dlg_5 = 110, 110, 536, 388, C, 132, 132, 536, 475, C
+Tela_NotaFiscal_IT = 22, 22, 435, 365, C, 44, 44, 457, 387, C
+Modulo_NF = 0, 0, 414, 343, C

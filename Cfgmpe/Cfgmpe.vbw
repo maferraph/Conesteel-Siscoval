@@ -1,0 +1,5 @@
+Modulo_MP = 66, 66, 494, 412, C
+Classe_Cfgmpe = 88, 88, 516, 434, C
+Tela_Cfg_MateriaPrima = 132, 132, 560, 478, C, 154, 154, 582, 500, C
+Tela_Cfg_MateriaPrima_Materiais = 66, 66, 494, 412, C, 0, 0, 428, 346, C
+Tela_Cfg_MateriaPrima_Relatorio = 66, 87, 521, 539, C, 44, 44, 472, 390, C
